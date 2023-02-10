@@ -1,0 +1,5 @@
+black
+localstack
+# This is the only version that supports cloudformation package/deploy
+awscli-local[ver1]
+coverage
