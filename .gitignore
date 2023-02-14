@@ -1,6 +1,8 @@
-.DS_Store
 *.log
+.DS_Store
+.coverage
 .docker
 .venv
-.coverage
 __pycache__
+build
+src/provisioner.egg-info/

@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ```
 source .venv/bin/activate
-coverage run -m unittest discover && coverage report && coverage html
+PYTHONPATH=src coverage run -m unittest tests && coverage report && coverage html
 ```
 
 After running the above, take a look at coverage in an HTML report like this:
@@ -26,7 +26,7 @@ open htmlcov/index.html
 To only run the unit tests:
 
 ```
-coverage run -m unittest test.py && coverage report && coverage html
+PYTHONPATH=src coverage run -m unittest tests/test.py && coverage report && coverage html
 ```
 
 ## Example
